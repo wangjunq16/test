@@ -28,9 +28,9 @@ public class Gui extends JFrame  {
         ActionListener bt1_ls=new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {	
-                gui.setVisible(false);
+                gui.dispose();
                 new Gui2();
-			}
+           }
 		};
 
         ActionListener bt1_2s=new ActionListener(){
@@ -41,6 +41,7 @@ public class Gui extends JFrame  {
         };
         gui.bt1.addActionListener(bt1_ls);
         gui.bt2.addActionListener(bt1_2s);
+        
 
     }
 

@@ -6,7 +6,8 @@ public class Gui2 extends JFrame{
      * @param args
      */
     public Gui2()
-    {        
+    {     
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);   
         this.setSize(300, 200);
         this.setLocation(300, 400);
         this.setVisible(true);
