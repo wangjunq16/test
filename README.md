@@ -12,3 +12,13 @@ The workspace contains two folders by default, where:
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+bt1.addActionListener((ActionListener) this);
+@Override
+    public void actionPerformed(ActionEvent e) {        
+        if(e.getSource()==bt1)
+        {
+            this.dispose();//点击按钮时frame1销毁,new一个frame2
+            new Gui2();
+        }
+    }
